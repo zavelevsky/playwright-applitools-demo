@@ -1,0 +1,47 @@
+.homePage {
+  text-align: center;
+}
+
+.homePage h1 {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.productItem {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.productItem:hover {
+  transform: translateY(-5px);
+}
+
+.productItem h3 {
+  margin: 10px 0;
+  color: #495057;
+}
+
+.productItem p {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.productItem a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
